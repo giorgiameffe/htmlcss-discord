@@ -1,0 +1,178 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* intestazione pagina */
+
+header {
+    background-color: #add8e6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.flex-container {
+    width: 1200px;
+    /* background-color: #daa520; */
+    margin: 0 auto;
+    display: flex;
+}
+
+header > .flex-container {
+    background-color: #daa520;
+}
+
+.flex-container .flex-item {
+    padding: 10px;
+    border: 2px dashed black;
+}
+
+.flex-container > .link {
+    flex-grow: 2;
+    text-align: center;
+}
+
+.flex-container > .logo {
+    flex-grow: 1;
+}
+
+.flex-container > .login {
+    flex-grow: 1;
+    text-align: end;
+}
+
+
+
+/* Corpo della pagina */
+
+main > section {
+    padding: 50px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Blue container */
+
+
+.bg-blue > .container {
+    width: 900px;
+}
+
+.bg-blue .container .row {
+    background-color: #ee82ee;
+    border: 2px dashed #000000;
+}
+
+/* Small-big boxes */
+
+.bigbox {
+    width: 800px;
+    background-color: #1e90ff;
+    border: 2px dashed #000000;
+}
+
+.smallbox {
+    width: 400px;
+    background-color: #ffc0cb;
+    border: 2px dashed #000000;
+}
+
+.bg-grey .smallbox {
+    order: -1;
+}
+
+/* Green row */
+
+.bg-grey .container .row {
+    height: 800px;
+    background-color: #228b22;
+    border: 2px dashed #000000;
+}
+
+/* rimuovere altezza */
+
+/* Footer sections */
+
+/* First part */
+
+.double {
+    background-color: #23272a;
+    height: 600px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.singlesection {
+    width: 400px;
+    background-color: #f08080;
+    border: 2px dashed #000000;
+}
+
+.fewsections {
+    width: 800px;
+    background-color: #20b2aa;
+    display: flex;
+}
+
+.menu {
+    width: 200px;
+    border: 2px dashed #ffff;
+}
+
+h3 {
+    color: #9a9a9a;
+}
+
+/* Second part */
+
+.banner {
+    padding-top: 20px;
+}
+
+.buttons {
+    background-color: #7fffd4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #ffb6c1;
+}
+
+.buttons > button {
+    padding: 5px;
+    border: 2px dashed #000000;
+}
+
+
+/* Background colors*/
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-grey {
+    background-color: #d3d3d3;
+}
+
+.bg-darkgrey {
+    background-color: #23272a;
+}
+
+/* Da rimuovere */
+
+.debug .row {
+    height: 400px;
+}
+
+/* .debug .bg-grey .row, .debug .bg-white .row {
+    height: 500px;
+} */
