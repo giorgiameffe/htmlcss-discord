@@ -173,9 +173,6 @@ h2 {
     padding-bottom: 30px;
 }
 
-
-/* rimuovere altezza */
-
 /* Footer sections */
 
 /* First part */
@@ -183,26 +180,54 @@ h2 {
 .double {
     background-color: #23272a;
     height: 600px;
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 30px;
+    border-bottom:1px solid #7288da;
 }
 
 .singlesection {
-    width: 400px;
-    background-color: #f08080;
-    border: 2px dashed #000000;
+    width: 300px;
+}
+
+.singlesection > h3 {
+    padding-bottom: 15px;
+}
+
+.flag {
+    color: #ffffff;
+}
+
+.social {
+    padding-top: 10px;
 }
 
 .fewsections {
     width: 800px;
-    background-color: #20b2aa;
     display: flex;
 }
 
 .menu {
     width: 200px;
-    border: 2px dashed #ffff;
 }
+
+li, .social, div > .bandiera {
+    list-style-type: none;
+    line-height: 300%;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h3, ul > h5 {
+    color: #7288da;
+}
+
+
+
+
 
 /* Second part */
 
