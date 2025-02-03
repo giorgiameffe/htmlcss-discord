@@ -55,8 +55,20 @@ header > .flex-container {
     border-radius: 20px;
     padding: 10px 15px;
     background-color: #ffffff;
+    font-weight: bold;
 }
 
+.bigbutton {
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.discordbutton {
+    background-color: #23272a;
+    color: #ffffff;
+}
 
 
 /* Corpo della pagina */
@@ -71,17 +83,40 @@ main > section {
 }
 
 
-/* Blue container */
+/* Jumbosection */
 
-
-.bg-blue > .container {
-    width: 900px;
+.jumbosection {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
-.bg-blue .container .row {
-    background-color: #ee82ee;
-    border: 2px dashed #000000;
+
+.jumbosection > .container {
+    width: 950px; 
+    margin: 0 auto; 
 }
+
+.jumbosection .container > .row {
+    text-align: center;
+    padding-top: 80px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.intro {
+    font-size: 25px;
+    color: #ffffff;
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 150%;
+    
+}
+
 
 /* Small-big boxes */
 
@@ -149,7 +184,7 @@ h3 {
     padding-top: 20px;
 }
 
-.buttons {
+.buttons2 {
     background-color: #7fffd4;
     padding-top: 20px;
     padding-bottom: 20px;
