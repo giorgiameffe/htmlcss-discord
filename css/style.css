@@ -25,11 +25,6 @@ header > .flex-container {
     background-color: #255ee9;
 }
 
-/* .flex-container .flex-item {
-    padding: 10px;
-    border: 2px dashed black;
-} */
-
 .flex-container > .logo {
     flex-grow: 1;
 }
@@ -92,7 +87,7 @@ main > section {
 
 
 .jumbosection > .container {
-    width: 950px; 
+    /* width: 950px;  */
     margin: 0 auto; 
 }
 
@@ -123,7 +118,6 @@ h1 {
 .bigbox {
     width: 800px;
     display: flex;
-    align-items: center;
 }
 
 .smallbox {
@@ -147,6 +141,9 @@ h2 {
 .bg-grey .smallbox {
     order: -1;
 }
+
+.bg-grey .bigbox 
+
 
 /* Green row */
 
