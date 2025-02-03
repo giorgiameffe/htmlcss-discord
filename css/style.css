@@ -9,6 +9,8 @@
 
 /* intestazione pagina */
 
+/* Logo e info */
+
 header {
     background-color: #255ee9;
     padding-top: 20px;
@@ -63,6 +65,12 @@ header > .flex-container {
 .discordbutton {
     background-color: #23272a;
     color: #ffffff;
+    margin-left: 15px;
+}
+
+.banner .flex-container .smallbutton {
+    background-color: #7288da;
+    color: #ffffff;
 }
 
 
@@ -113,14 +121,14 @@ h1 {
 }
 
 
-/* Small-big boxes */
+/* Middle main layout sections */
 
-.bigbox {
+.layoutimage {
     width: 800px;
     display: flex;
 }
 
-.smallbox {
+.text {
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -132,21 +140,17 @@ h2 {
     line-height: 150%;
 }
 
-.smallbox > p  {
+.text > p  {
     font-size: 15px;
     margin-top: 30px;
     line-height: 150%;
 }
 
-.bg-grey .smallbox {
+.bg-grey .text {
     order: -1;
 }
 
-
-.bg-grey .container .row {
-    background-color: #228b22;
-    border: 2px dashed #000000;
-}
+/* Big main section */
 
 .bigcontainer {
     width: 1200px;
@@ -193,12 +197,19 @@ h2 {
     padding-bottom: 15px;
 }
 
-.flag {
+.language {
     color: #ffffff;
+    font-size: 15px;
+}
+
+.flag {
+    width: 20px;
+    height: 15px;
 }
 
 .social {
     padding-top: 10px;
+    letter-spacing: 10px;
 }
 
 .fewsections {
@@ -226,37 +237,19 @@ h3, ul > h5 {
 }
 
 
-
-
-
 /* Second part */
 
 .banner {
     padding-top: 20px;
 }
 
-.buttons2 {
-    background-color: #7fffd4;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.banner .flex-container {
+    padding-bottom: 40px;
+    background-color: #23272a;
     justify-content: space-between;
 }
 
-/* button {
-    background-color: #ffb6c1;
-}
-
-.buttons > button {
-    padding: 5px;
-    border: 2px dashed #000000;
-} */
-
-
 /* Background colors*/
-
-.bg-blue {
-    background-color: blue;
-}
 
 .bg-grey {
     background-color: #d3d3d3;
@@ -265,13 +258,3 @@ h3, ul > h5 {
 .bg-darkgrey {
     background-color: #23272a;
 }
-
-/* Da rimuovere */
-
-.debug .row {
-    height: 400px;
-}
-
-/* .debug .bg-grey .row, .debug .bg-white .row {
-    height: 500px;
-} */
