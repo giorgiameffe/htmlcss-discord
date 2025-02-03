@@ -87,7 +87,7 @@ main > section {
 
 
 .jumbosection > .container {
-    /* width: 950px;  */
+    width: 950px; 
     margin: 0 auto; 
 }
 
@@ -132,7 +132,7 @@ h2 {
     line-height: 150%;
 }
 
-.smallbox > p {
+.smallbox > p  {
     font-size: 15px;
     margin-top: 30px;
     line-height: 150%;
@@ -142,16 +142,37 @@ h2 {
     order: -1;
 }
 
-.bg-grey .bigbox 
-
-
-/* Green row */
 
 .bg-grey .container .row {
-    height: 800px;
     background-color: #228b22;
     border: 2px dashed #000000;
 }
+
+.bigcontainer {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bigcontainer h2 {
+    padding-bottom: 30px;
+
+}
+
+.bigcontainer p {
+    font-size: 15px;
+}
+
+.macbotton {
+    background-color: #7288da;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.download {
+    padding-bottom: 30px;
+}
+
 
 /* rimuovere altezza */
 
@@ -181,10 +202,6 @@ h2 {
 .menu {
     width: 200px;
     border: 2px dashed #ffff;
-}
-
-h3 {
-    color: #9a9a9a;
 }
 
 /* Second part */
